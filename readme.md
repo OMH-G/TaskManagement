@@ -35,14 +35,19 @@ Redoc URL: [Redoc Documentation](http://your-api-url/redoc/)
 
 ## Setup
 
-1. Clone the repository:
+**1. Clone the repository**:
+git clone https://github.com/OMH-G/TaskManagement.git<br>
+`cd Task`
 
-2. Install dependencies:
+**2. Install dependencies**:<br>
+`pip install -r requirements.txt`
 
-3. Run migrations:
+**3. Run migrations**:<br>
+`python manage.py makemigrations`<br>
+`python manage.py migrate`
 
-4. Start the server:
-
+**4. Start the server**:<br>
+`python manage.py runserver`
 ## Usage
 
 
